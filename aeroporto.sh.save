@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo "say u name"
+   read name
+echo " where r u now"
+   read place
+sleep 1
+
+if [  ]

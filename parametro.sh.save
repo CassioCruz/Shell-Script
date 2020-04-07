@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo $1
+soma=$$1+$2]
+echo $soma

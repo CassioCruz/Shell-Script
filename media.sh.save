@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo "Qual é a sua primeira nota"
+    read nota1
+echo "Qual é a sua segunda nota"
+    read nota2
+media=$[($nota2+$nota2)/2]
+
+if [ $media -lt && $media -gt 5 ]
+then
+    echo " A sua media é $media voce foi ao recurso"
+#elif 
+else
+    echo "A sua media é $media você Reprovou"
+fi

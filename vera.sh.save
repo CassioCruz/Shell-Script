@@ -1,0 +1,8 @@
+#!/bin/bash
+
+touch /home/vera_cruz/Desktop/log
+echo "DID"  > /home/vera_cruz/Desktop/log
+
+echo "echo "echo "DID"  > /home/vera_cruz/Desktop/log
+echo "DID"  > /home/vera_cruz/Desktop/log
+

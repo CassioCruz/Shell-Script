@@ -1,0 +1,20 @@
+#!/bin/bash
+
+echo "deseja dar uma volta?"
+read volta
+
+while [ "$volta" = "sim" ]
+  do
+     echo "quer continuar ?"
+        read volta
+           if [ $volta = sim ]
+             then
+                 echo ""
+                #echo $volta
+             else
+                echo "obrigado volte sempre"
+            fi 
+            
+done
+
+
