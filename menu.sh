@@ -32,6 +32,7 @@ fi
 echo "What´s my age "
     read age
 c=21
+
  if [ $age = $c ] #condição 
     then
         echo "Correct "
@@ -75,19 +76,18 @@ fi
 
 
 tabuada() {
-
 t2(){
-for vera in 1 2 3 4 5 6 7 8 9 10 11 12
+for (( i = 0 ; i < 24 ; i++ )) 
   do 
-    #echo " 2*1=2"
-    result=$[a+=2]
-    echo "2* $vera = $result"
+    t=$[t+=1] 
+    i=$[a+=2]
+    echo "2 * $t = $i"
 done
 }
 t3() {
 for veras in 1 2 3 4 5 6 7 8 9 10 11 12 #qntdade do laço for
   do 
-    tabuada3=$[b+=3] #incremento de 3
+    tabuada3=$[a+=3] #incremento de 3
     echo "3* $veras = $tabuada3"
 	
 done
