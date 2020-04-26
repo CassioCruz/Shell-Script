@@ -69,7 +69,7 @@ if [ $like = $e ] #condição
     else #caso a saida seja =! de 0
 	
 	echo "Incorrect"
-        echo "Afirmativa correcta é $e"
+        echo "Correct afirmative é $e"
 
 fi	
 }
