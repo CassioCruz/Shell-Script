@@ -9,6 +9,7 @@ a=vera
 
 if [ $name = $a ] #condição 
   then
+  
 	echo "Correct"
 	   result=$((a+=100)) #incrementa + 100 dos pontos
 	     echo " You have $result points "
@@ -73,163 +74,245 @@ if [ $like = $e ] #condição
 fi	
 }
 #####
-
-
 tabuada() {
-t2(){
-for (( i = 0 ; i < 24 ; i++ )) 
-  do 
-    t=$[t+=1] 
-    i=$[a+=2]
-    echo "2 * $t = $i"
+tab2(){
+for (( i = 1 ;i <= 24; i++))
+  do
+    tabua2=$[q+=1]
+    i=$[c+=2]
+    echo "2*$tabua2=$i"	
 done
+#echo "Try again" #condition
+#   read ya
+# if [ $ya = "y" ]
+#   then 
+#	maintab #call func
+# else 
+#    echo "Its ok"
+# fi
 }
-t3() {
-for veras in 1 2 3 4 5 6 7 8 9 10 11 12 #qntdade do laço for
+tab3(){
+for (( i = 0 ; i < 36 ; i++ )) 
   do 
-    tabuada3=$[a+=3] #incremento de 3
-    echo "3* $veras = $tabuada3"
-	
+    tabua3=$[t+=1] 
+    i=$[b+=3]
+    echo "3*$tabua3=$i"
 done
+#echo "Try again" #condition
+#   read ya
+# if [ $ya = "y" ]
+#   then 
+#	maintab #call func
+# else 
+#    echo "Its ok"
+# fi
 }
-
-t4() {
-for tabua4 in 1 2 3 4 5 6 7 8 9 10 11 12
-  do 
-    tabuad4=$[c+=4]
-    echo "4* $tabua4 = $tabuad4"
-	
+tab4(){
+for (( i =1 ;i < 48; i++))
+  do
+    tabua4=$[q+=1]
+    i=$[c+=4]
+    echo "4*$tabua4=$i"
 done
-}
-
-t5() {
-for tabua5 in 1 2 3 4 5 6 7 8 9 10 11 12
-  do 
-    tabuad5=$[d+=5]
-    echo "5* $tabua5 = $tabuad5"
-	
-done
-}
-
-t6() {
-for tabua6 in 1 2 3 4 5 6 7 8 9 10 11 12
-  do 
-    tabuad6=$[e+=6]
-    echo "6* $tabua6 = $tabuad6"
-	
-done
-}
-
-t7() {
-for tabua7 in 1 2 3 4 5 6 7 8 9 10 11 12
-  do 
-    tabuad7=$[f+=7]
-    echo "7* $tabua7 = $tabuad7"
-	
-done
+#echo "Try again" #condition
+#   read ya
+# if [ $ya = "y" ]
+#   then 
+#	maintab #call func
+# else 
+#    echo "Its ok"
+# fi
 }
 
-t8() {
-for tabua8 in 1 2 3 4 5 6 7 8 9 10 11 12
-  do 
-    tabuad8=$[g+=8]
-    echo "8* $tabua8 = $tabuad8"
-	
+tab5(){
+for (( i =1 ;i < 60; i++))
+  do
+    tabua5=$[q+=1]
+    i=$[c+=5]
+    echo "5*$tabua5=$i"	
 done
+#echo "Try again" #condition
+#   read ya
+# if [ $ya = "y" ]
+#   then 
+#	maintab #call func
+# else 
+#    echo "Its ok"
+# fi
 }
 
-t9() {
-for tabua9 in 1 2 3 4 5 6 7 8 9 10 11 12
-  do 
-    tabuad9=$[f+=9]
-    echo "9* $tabua9 = $tabuad9"
-	
+tab6(){
+for (( i =1 ;i < 72; i++))
+  do
+    tabua6=$[q+=1]
+    i=$[c+=6]
+    echo "6*$tabua6=$i"
 done
+#echo "Try again" #condition
+#   read ya
+# if [ $ya = "y" ]
+#   then 
+#	maintab #call func
+# else 
+#    echo "Its ok"
+# fi
+}
+tab7(){
+for (( i =1 ;i < 84; i++))
+  do
+    tabua7=$[q+=1]
+    i=$[c+=7]
+    echo "7*$tabua7=$i"	
+done
+#echo "Try again" #condition
+#   read ya
+# if [ $ya = "y" ]
+#   then 
+#	maintab #call func
+# else 
+#    echo "Its ok"
+# fi
 }
 
-t10() {
-for tabua10 in 1 2 3 4 5 6 7 8 9 10 11 12
-  do 
-    tabuad10=$[h+=10]
-    echo "10* $tabua10 = $tabuad10"
-	
+tab8() {
+for (( i =1 ;i < 96; i++))
+  do
+    tabua8=$[q+=1]
+    i=$[c+=8]
+    echo "8*$tabua8=$i"	
 done
+#echo "Try again" #condition
+#   read ya
+# if [ $ya = "y" ]
+#   then 
+#	maintab #call func
+# else 
+#    echo "Its ok"
+# fi
 }
 
-t11() {
-for tabua11 in 1 2 3 4 5 6 7 8 9 10 11 12
-  do 
-    tabuad11=$[i+=11]
-    echo "11* $tabua11 = $tabuad11"
-	
+tab9() {
+for (( i =1 ;i < 108; i++))
+  do
+    tabua9=$[q+=1]
+    i=$[c+=9]
+    echo "9*$tabua9=$i"	
 done
+#echo "Try again" #condition
+#   read ya
+# if [ $ya = "y" ]
+#   then 
+#	maintab #call func
+# else 
+#    echo "Its ok"
+# fi
+}
+tab10() {
+for (( i =1 ;i < 120; i++))
+  do
+    tabua10=$[q+=1]
+    i=$[c+=9]
+    echo "10*$tabua10=$i"	
+done
+#echo "Try again" #condition
+#   read ya
+# if [ $ya = "y" ]
+#   then 
+#	maintab #call func
+# else 
+#    echo "Its ok"
+# fi
 }
 
-t12() {
-for tabua12 in 1 2 3 4 5 6 7 8 9 10 11 12
-  do 
-    tabuad12=$[j+=12]
-    echo "12* $tabua12 = $tabuad12"
-	
+tab11() {
+for (( i =1 ;i < 132; i++))
+  do
+    tabua11=$[q+=1]
+    i=$[c+=11]
+    echo "11*$tabua11=$i"
 done
+#echo "Try again" #condition
+#   read ya
+# if [ $ya = "y" ]
+#   then 
+#	maintab #call func
+# else 
+#    echo "Its ok"
+# fi
 }
-
+tab12() {
+for (( i =1 ;i < 144; i++))
+  do
+    tabua12=$[q+=1]
+    i=$[c+=12]
+    echo "14*$tabua14=$i"	
+done
+#echo "Try again" #condition
+#   read ya
+# if [ $ya = "y" ]
+#   then 
+#	maintab #call func
+# else 
+#    echo "Its ok"
+# fi
+}
+   }
 
 
 #Menu de escolha da tabuada
+maintab(){
 echo ""
 echo "Olá $name digite a tabuada que deseja"
    read resposta
 case $resposta in
 2)
   clear
-   echo "$name você escolheu a tabuada de 2"
-    t2;; #chamada função
+   echo "Sr.$name you choose "
+    tab2;; #chamada função
 3)
   clear 
   echo "$name você escolheu a tabuada de 3"
-   t3;; #chamada função
+   tab3;; #chamada função
 4)
   clear
 echo "$name você escolheu a tabuada de 4"
-  t4;; #chamada função
+  tab4;; #chamada função
 5)
   clear
 echo "$name você escolheu a tabuada de 5" 
-  t5;; #chamada função
+  tab5;; #chamada função
 6)
   clear 
 echo "$name você escolheu a tabuada de 6"
-  t6;; #chamada função
+  tab6;; #chamada função
 7)
   clear 
 echo "$name você escolheu a tabuada de 7"
-  t7;; #chamada função
+  tab7;; #chamada função
 8)
   clear 
 echo "$name você escolheu a tabuada de 8"
-  t8;; #chamada função
+  tab8;; #chamada função
 9)
   clear 
 echo "$name você escolheu a tabuada de 9"
-  t9;; #chamada função
+  tab9;; #chamada função
 10)
   clear 
 echo "$name você escolheu a tabuada de 10"
-  t10;; #chamada função
+  tab10;; #chamada função
 11)
   clear 
 echo "$name você escolheu a tabuada de 11"
-  t11;; #chamada função
+  tab11;; #chamada função
 12)
   clear 
 echo "$name você escolheu a tabuada de 12"
-  t12;; #chamada função
+  tab12;; #chamada função
 *)
 #caso a saida nao for igual a 0
   echo "o linux só multiplica até a tabuada dos 12";;
-esac
-
+esac 
 }
 
 echo "Say you name"
@@ -245,8 +328,8 @@ case  $resposta in
 1)
 eu;;
 2)
-tabuada;;
-
+tabuada
+maintab;;
 3)
 echo "sou bwe mau aahahha";;
 *)
